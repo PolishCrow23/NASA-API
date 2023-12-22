@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>convert c to f</h1>
+    <input></input>
+    <p></p>
+    <img src = "">
+    <button></button>
+</body>
+</html>
+
+<script>
+    // document.querySelector('button').addEventListener('click', checkAge)
+
+    // function checkAge() {
+    //     let age = document.querySelector('input').value
+    //     p = document.querySelector('p')
+
+    //     if (age > 10) {
+    //         p.innerText = 'Hi'
+    //     } else {
+    //         p.innerText = 'Wow'
+    //     }
+    // }
+
+    // function subTwoNums(n1,n2) {
+    //     alert(n1 - n2)
+    // }
+    // subTwoNums(6,3)
+
+    // function divideThreeNums(n1,n2,n3) {
+    //     console.log(n1 / n2 / n3)
+    // }
+    // divideThreeNums(12,2,3)
+
+    // function multiplyThreeNums(n1,n2,n3) {
+    //     console.log(n1 * n2 * n3)
+    // }
+    // multiplyThreeNums(2,2,2)
+
+    // function sumAndRemainder(n1,n2,n3) {
+    //     console.log((n1 + n2) / n3)
+    // }
+    // sumAndRemainder(10,2,2)
+
+    // function takeFourNums(n1,n2,n3,n4) {
+    //     let product = n1 * n2
+    //     if (product > 100) {
+    //         console.log(n3 + n4)
+    //     } else if (product < 100) {
+    //         console.log(n3 - n4)
+    //     } else if (product = 100) {
+    //         alert((n1 * n2 * n3) / n4)
+    //     }
+    // }
+    // takeFourNums(100,1,2,3)
+
+// document.querySelector('button').addEventListener('click', celciusToFarenheit)
+
+// function celciusToFarenheit(){
+//     let celcius = Number(document.querySelector('input').value)
+//     let farenheit = celcius * 1.8 + 32
+//     document.querySelector('p').innerText = farenheit
+// }
+
+// function hiBye(arr) {
+//     if (arr[0] < arr[arr.length - 1]) {
+//         alert('Hi')
+//     } else if (arr[0] > arr[arr.length - 1]) {
+//         alert('Bye')
+//     } else {
+//         alert('We close in an hour')
+//     }
+// }
+
+// hiBye([10,2,3,10])
+
+// let bestColors = ['green', 'blue', 'yelllow', 'black']
+
+// bestColors.forEach((x,i) => console.log(i))
+
+// function evenNumsOnly(arr) {
+//     let onlyEvens = []
+//     arr.forEach((e) => {
+//         if (e % 2 === 0) {
+//             onlyEvens.push(e)
+//         }
+//     })
+//     return onlyEvens
+// }
+
+// console.log(evenNumsOnly([2,5,7,5,3,2,6,10]))
+
+// const stopwatch = {}
+
+// stopwatch.time = 12
+// stopwatch.color = 'pink'
+// stopwatch.brand = 'Lorel'
+// stopwatch.price = 60
+
+// stopwatch.sound = function
+
+fetch("https://dog.ceo/api/breeds/image/random")
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+        document.querySelector('img') = data.message
+    })
+    .catch(err => {
+        console.log(`error $err`)
+    })
+
+</script>
+

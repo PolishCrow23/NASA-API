@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+.hidden{
+  display: none;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+main{
+  min-height: 300px;
+  padding: 30px; 
+}
+
+section{
+  min-height: 300px;
+  padding: 80px 30px 30px 30px;
+}
+
+h1, h2{
+  text-align: center;
+  margin-top: 0;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+li{
+  width: 200px;
+  height: 50px;
+}
+span{
+  text-align: center;
+  padding-top: 14px;
+  display: block;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+  color: white;
+}
+
+main{
+  background-color: lavenderblush;
+}
+
+section{
+  background-color: lavender;
+}
+
+h1,h2{
+  color: rgb(169, 108, 255);
+}
+
+#frogPrincessDisplay{
+  border: 10px double rgb(255, 108, 133);
+}
+
+#candy{
+  background: #eb77df;
+}
+#lavender{
+  background: #b78af9;
+}
+#oceanBreeze{
+  background: #0463e4;
+}
+
+#reefGreen{
+  background: #8ce360;
+}
+
+#orangePeel{
+  background: #fd7a08;
+}
